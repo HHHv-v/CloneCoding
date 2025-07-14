@@ -1,137 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="style.css" />
-		<title>Youtube APP</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-		/>
-	</head>
-	<body>
-		<!--Header-->
-		<header>
-			<div class="logo">
-				<i class="fab fa-youtube"></i>
-				<!--i는 아이콘 태그로 많이 씀-->
-				<span class="title">Youtube</span>
-			</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube APP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <!--i는 아이콘 태그로 많이 씀-->
+        <span class="title">Youtube</span>
+      </div>
 
-			<div class="icons">
-				<i class="fas fa-search"></i>
-				<i class="fas fa-ellipsis-v"></i>
-			</div>
-		</header>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
 
-		<!--Video Player-->
-		<section class="player">
-			<iframe
-				src="https://www.youtube.com/embed/UMcqpEuMUrs"
-				title="YouTube video player"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-			>
-			</iframe>
-		</section>
+    <!--Video Player-->
+    <section class="container">
+      <div class="player">
+        <iframe
+          src="https://www.youtube.com/embed/UMcqpEuMUrs"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </section>
 
-		<div class="infoAndUpNext">
-			<!--Video inform-->
-			<section class="inform">
-				<div class="metadata">
-					<div class="tag">
-						<ul class="hashtags">
-							<li>#animalcrossingmusic</li>
-							<li>#relax</li>
-							<li>#cutebgm</li>
-						</ul>
-					</div>
+    <div class="infoAndUpNext">
+      <!--Video inform-->
+      <section class="inform">
+        <div class="metadata">
+          <div class="tag">
+            <ul class="hashtags">
+              <li>#animalcrossingmusic</li>
+              <li>#relax</li>
+              <li>#cutebgm</li>
+            </ul>
+          </div>
 
-					<div class="tit">
-						<span class="title"> 마음이 조급할 때 듣는 브금 </span>
-						<button class="moreBtn"><i class="fas fa-caret-down"></i></button>
-					</div>
-					<span class="views">1M views 1 month ago</span>
-				</div>
+          <div class="tit">
+            <span class="title"> 마음이 조급할 때 듣는 브금 </span>
+            <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
 
-				<ul class="actions">
-					<li>
-						<button>
-							<i class="active fas fa-thumbs-up"></i><span>1K</span>
-						</button>
-					</li>
-					<li>
-						<button><i class="fas fa-thumbs-down"></i><span>0</span></button>
-					</li>
-					<li>
-						<button><i class="fas fa-share"></i><span>Share</span></button>
-					</li>
-					<li>
-						<button><i class="fas fa-plus"></i><span>Save</span></button>
-					</li>
-					<li>
-						<button>
-							<i class="fas fa-font-awesome-flag"></i><span>Report</span>
-						</button>
-					</li>
-				</ul>
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
 
-				<div class="channel">
-					<div class="metadata">
-						<img src="image/avatar.jpg" alt="" />
-						<div class="info">
-							<span class="name">모여봐요 동물의 숲</span>
-							<span class="subscribers">1M subscribers</span>
-						</div>
-					</div>
-					<button class="subscribe">subscribe</button>
-				</div>
-			</section>
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/avatar.jpg" alt="" />
+            <div class="info">
+              <span class="name">모여봐요 동물의 숲</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
 
-			<!--upNext-->
-			<section class="upNext">
-				<span class="title">Up next</span>
-				<ul>
-					<li class="item">
-						<div class="img"><img src="image/1.png" alt="" /></div>
-						<div class="info">
-							<span class="title">여름을 머금은 브금</span>
-							<span class="channel">모여봐요 동물의 숲</span>
-							<span class="views">82K views</span>
-						</div>
-						<button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-					</li>
-					<li class="item">
-						<div class="img"><img src="image/2.png" alt="" /></div>
-						<div class="info">
-							<span class="title"
-								>🎧🌷기분 좋아지는 추억의 튀어나와요 동물의숲 음악🪵 【50분】 |
-								게임시작~자정🐰🍃ㅣ게임음악, 노동요, 집중 음악</span
-							>
-							<span class="channel">모여봐요 동물의 숲</span>
-							<span class="views">82K views</span>
-						</div>
-						<button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-					</li>
-					<li class="item">
-						<div class="img"><img src="image/3.png" alt="" /></div>
-						<div class="info">
-							<span class="title"
-								>복층 도서관 📚｜편안하고 여유로운 재즈 + 비 소리｜공부 & 작업
-								음악｜동물의 숲 분위기 ASMR</span
-							>
-							<span class="channel">모여봐요 동물의 숲</span>
-							<span class="views">82K views</span>
-						</div>
-						<button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-					</li>
-				</ul>
-			</section>
-		</div>
-	</body>
+      <!--upNext-->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.png" alt="" /></div>
+            <div class="info">
+              <span class="title">여름을 머금은 브금</span>
+              <span class="channel">모여봐요 동물의 숲</span>
+              <span class="views">82K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >🎧🌷기분 좋아지는 추억의 튀어나와요 동물의숲 음악🪵 【50분】 |
+                게임시작~자정🐰🍃ㅣ게임음악, 노동요, 집중 음악</span
+              >
+              <span class="channel">모여봐요 동물의 숲</span>
+              <span class="views">82K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >복층 도서관 📚｜편안하고 여유로운 재즈 + 비 소리｜공부 & 작업
+                음악｜동물의 숲 분위기 ASMR</span
+              >
+              <span class="channel">모여봐요 동물의 숲</span>
+              <span class="views">82K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
