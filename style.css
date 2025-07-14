@@ -62,15 +62,18 @@ header .icons .fa-search {
 }
 
 /* video player */
-/*player 에서 중간정렬하는거 어떻게 할지 모르겠음.. + 전체화면 하면 이상해짐*/
+
+.container {
+  width: 100%;
+  background-color: var(--black-color);
+}
 
 .player {
   position: relative;
-  top: 0;
-  width: 100vw;
-  height: 0;
-  padding-bottom: 56.25%; /* 16:9 비율 아래 여백*/
-  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  aspect-ratio: 16/9;
 }
 
 .player iframe {
@@ -154,8 +157,8 @@ header .icons .fa-search {
 .channel {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid var(--grey-light-color);
-  border-bottom: 1px solid var(--grey-light-color);
+  /*border-top: 1px solid var(--grey-light-color);
+  border-bottom: 1px solid var(--grey-light-color);*/
   padding: var(--padding) 0;
 }
 
@@ -242,6 +245,10 @@ header .icons .fa-search {
 
 .upNext .item .moreBtn {
   background: var(--white-color);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding);
 }
 
 .infoAndUpNext {
